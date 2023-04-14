@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>JavaScript: Strings Practice</title>
+</head>
+<body>
+	<p class="newsletter-text"></p>
+	<script type="text/javascript">
+		const NAME = 'Alejandro'
+		const GAME = 'Zelda: Tears of the Kingdom'
+		const DISCOUNT = 25
+		const NEWSLETTER = `Hola ${NAME},
+		Come regalo de bienvenida al Club de gamers,
+		queremos ofrecer un descuento del ${DISCOUNT}%
+		en el próximo lanzamiento de tu interés, ${GAME}
+		Esperamos que lo disfrutes,
+		Un saludo`
+		document.querySelector('.newsletter-text').innerHTML = NEWSLETTER
+	</script>
+</body>
+</html>
